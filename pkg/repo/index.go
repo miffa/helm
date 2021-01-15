@@ -32,9 +32,9 @@ import (
 
 	"helm.sh/helm/v3/internal/fileutil"
 	"helm.sh/helm/v3/internal/urlutil"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/provenance"
+	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/v3/pkg/chart/loader"
+	"github.com/miffa/helm/v3/pkg/provenance"
 )
 
 var indexPath = "index.yaml"

@@ -14,15 +14,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package storage // import "helm.sh/helm/v3/pkg/storage"
+package storage // import "github.com/miffa/helm/v3/pkg/storage"
 
 import (
 	"fmt"
 	"reflect"
 	"testing"
 
-	rspb "helm.sh/helm/v3/pkg/release"
-	"helm.sh/helm/v3/pkg/storage/driver"
+	rspb "github.com/miffa/helm/v3/pkg/release"
+	"github.com/miffa/helm/v3/pkg/storage/driver"
 )
 
 func TestStorageCreate(t *testing.T) {

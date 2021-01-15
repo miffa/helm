@@ -32,8 +32,8 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/helmpath"
+	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/v3/pkg/helmpath"
 )
 
 const (

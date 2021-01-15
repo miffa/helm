@@ -32,7 +32,7 @@ import (
 
 	"helm.sh/helm/v3/internal/tlsutil"
 	"helm.sh/helm/v3/internal/version"
-	"helm.sh/helm/v3/pkg/cli"
+	"github.com/miffa/helm/v3/pkg/cli"
 )
 
 func TestHTTPGetter(t *testing.T) {

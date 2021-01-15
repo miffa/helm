@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"helm.sh/helm/v3/internal/test/ensure"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/lint/support"
+	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/v3/pkg/chartutil"
+	"github.com/miffa/helm/v3/pkg/lint/support"
 )
 
 func chartWithBadDependencies() chart.Chart {

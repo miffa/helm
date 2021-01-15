@@ -37,10 +37,10 @@ import (
 
 	ociRegistry "helm.sh/helm/v3/internal/experimental/registry"
 	"helm.sh/helm/v3/internal/tlsutil"
-	"helm.sh/helm/v3/pkg/chart"
-	"helm.sh/helm/v3/pkg/chart/loader"
-	"helm.sh/helm/v3/pkg/chartutil"
-	"helm.sh/helm/v3/pkg/repo"
+	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/v3/pkg/chart/loader"
+	"github.com/miffa/helm/v3/pkg/chartutil"
+	"github.com/miffa/helm/v3/pkg/repo"
 )
 
 // NewTempServerWithCleanup creates a server inside of a temp dir.
