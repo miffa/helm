@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
+	"github.com/miffa/helm/internal/experimental/registry"
 )
 
 // OCIGetter is the default HTTP(/S) backend handler

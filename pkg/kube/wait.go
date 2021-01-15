@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package kube // import "github.com/miffa/helm/v3/pkg/kube"
+package kube // import "github.com/miffa/helm/pkg/kube"
 
 import (
 	"context"
@@ -38,7 +38,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/scheme"
 
-	deploymentutil "github.com/miffa/helm/v3/internal/third_party/k8s.io/kubernetes/deployment/util"
+	deploymentutil "github.com/miffa/helm/internal/third_party/k8s.io/kubernetes/deployment/util"
 )
 
 type waiter struct {

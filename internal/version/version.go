@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package version // import "github.com/miffa/helm/v3/internal/version"
+package version // import "github.com/miffa/helm/internal/version"
 
 import (
 	"flag"

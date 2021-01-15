@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package rules // import "github.com/miffa/helm/v3/pkg/lint/rules"
+package rules // import "github.com/miffa/helm/pkg/lint/rules"
 
 import (
 	"fmt"
@@ -27,9 +27,9 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/lint/support"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/lint/support"
 )
 
 // Chartfile runs a set of linter rules related to Chart.yaml file

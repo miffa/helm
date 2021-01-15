@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/helmpath"
-	"github.com/miffa/helm/v3/pkg/helmpath/xdg"
+	"github.com/miffa/helm/pkg/helmpath"
+	"github.com/miffa/helm/pkg/helmpath/xdg"
 )
 
 // HelmHome sets up a Helm Home in a temp dir.

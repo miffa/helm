@@ -19,8 +19,8 @@ package action
 import (
 	"io"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/internal/experimental/registry"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 // ChartSave performs a chart save operation.

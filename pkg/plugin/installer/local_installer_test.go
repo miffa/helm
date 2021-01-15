@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package installer // import "github.com/miffa/helm/v3/pkg/plugin/installer"
+package installer // import "github.com/miffa/helm/pkg/plugin/installer"
 
 import (
 	"io/ioutil"
@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/helmpath"
+	"github.com/miffa/helm/pkg/helmpath"
 )
 
 var _ Installer = new(LocalInstaller)

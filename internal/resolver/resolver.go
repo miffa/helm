@@ -26,12 +26,12 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chart/loader"
-	"github.com/miffa/helm/v3/pkg/gates"
-	"github.com/miffa/helm/v3/pkg/helmpath"
-	"github.com/miffa/helm/v3/pkg/provenance"
-	"github.com/miffa/helm/v3/pkg/repo"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chart/loader"
+	"github.com/miffa/helm/pkg/gates"
+	"github.com/miffa/helm/pkg/helmpath"
+	"github.com/miffa/helm/pkg/provenance"
+	"github.com/miffa/helm/pkg/repo"
 )
 
 const FeatureGateOCI = gates.Gate("HELM_EXPERIMENTAL_OCI")

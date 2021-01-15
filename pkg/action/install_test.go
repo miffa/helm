@@ -28,13 +28,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/miffa/helm/v3/internal/test"
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	kubefake "github.com/miffa/helm/v3/pkg/kube/fake"
-	"github.com/miffa/helm/v3/pkg/release"
-	"github.com/miffa/helm/v3/pkg/storage/driver"
-	"github.com/miffa/helm/v3/pkg/time"
+	"github.com/miffa/helm/internal/test"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
+	kubefake "github.com/miffa/helm/pkg/kube/fake"
+	"github.com/miffa/helm/pkg/release"
+	"github.com/miffa/helm/pkg/storage/driver"
+	"github.com/miffa/helm/pkg/time"
 )
 
 type nameTemplateTestCase struct {

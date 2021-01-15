@@ -27,13 +27,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/cli-runtime/pkg/resource"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/kube"
-	"github.com/miffa/helm/v3/pkg/postrender"
-	"github.com/miffa/helm/v3/pkg/release"
-	"github.com/miffa/helm/v3/pkg/releaseutil"
-	"github.com/miffa/helm/v3/pkg/storage/driver"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/kube"
+	"github.com/miffa/helm/pkg/postrender"
+	"github.com/miffa/helm/pkg/release"
+	"github.com/miffa/helm/pkg/releaseutil"
+	"github.com/miffa/helm/pkg/storage/driver"
 )
 
 // Upgrade is the action for upgrading releases.

@@ -25,13 +25,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
-	"github.com/miffa/helm/v3/internal/fileutil"
-	"github.com/miffa/helm/v3/internal/urlutil"
-	"github.com/miffa/helm/v3/pkg/getter"
-	"github.com/miffa/helm/v3/pkg/helmpath"
-	"github.com/miffa/helm/v3/pkg/provenance"
-	"github.com/miffa/helm/v3/pkg/repo"
+	"github.com/miffa/helm/internal/experimental/registry"
+	"github.com/miffa/helm/internal/fileutil"
+	"github.com/miffa/helm/internal/urlutil"
+	"github.com/miffa/helm/pkg/getter"
+	"github.com/miffa/helm/pkg/helmpath"
+	"github.com/miffa/helm/pkg/provenance"
+	"github.com/miffa/helm/pkg/repo"
 )
 
 // VerificationStrategy describes a strategy for determining whether to verify a chart.

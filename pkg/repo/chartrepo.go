@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package repo // import "github.com/miffa/helm/v3/pkg/repo"
+package repo // import "github.com/miffa/helm/pkg/repo"
 
 import (
 	"crypto/rand"
@@ -32,10 +32,10 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/pkg/chart/loader"
-	"github.com/miffa/helm/v3/pkg/getter"
-	"github.com/miffa/helm/v3/pkg/helmpath"
-	"github.com/miffa/helm/v3/pkg/provenance"
+	"github.com/miffa/helm/pkg/chart/loader"
+	"github.com/miffa/helm/pkg/getter"
+	"github.com/miffa/helm/pkg/helmpath"
+	"github.com/miffa/helm/pkg/provenance"
 )
 
 // Entry represents a collection of parameters for chart repository

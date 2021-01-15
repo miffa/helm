@@ -22,8 +22,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
 )
 
 func TestSortTemplates(t *testing.T) {

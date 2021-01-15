@@ -31,7 +31,7 @@ import (
 	"github.com/spf13/pflag"
 	"k8s.io/cli-runtime/pkg/genericclioptions"
 
-	"github.com/miffa/helm/v3/pkg/helmpath"
+	"github.com/miffa/helm/pkg/helmpath"
 )
 
 // defaultMaxHistory sets the maximum number of releases to 0: unlimited

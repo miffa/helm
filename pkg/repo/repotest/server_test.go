@@ -24,8 +24,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/internal/test/ensure"
-	"github.com/miffa/helm/v3/pkg/repo"
+	"github.com/miffa/helm/internal/test/ensure"
+	"github.com/miffa/helm/pkg/repo"
 )
 
 // Young'n, in these here parts, we test our tests.

@@ -24,7 +24,7 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 // LoadChartfile loads a Chart.yaml file into a *chart.Metadata.

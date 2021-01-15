@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package registry // import "github.com/miffa/helm/v3/internal/experimental/registry"
+package registry // import "github.com/miffa/helm/internal/experimental/registry"
 
 import (
 	"bytes"
@@ -34,9 +34,9 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chart/loader"
-	"github.com/miffa/helm/v3/pkg/chartutil"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chart/loader"
+	"github.com/miffa/helm/pkg/chartutil"
 )
 
 const (

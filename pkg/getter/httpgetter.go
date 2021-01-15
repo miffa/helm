@@ -23,9 +23,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/internal/tlsutil"
-	"github.com/miffa/helm/v3/internal/urlutil"
-	"github.com/miffa/helm/v3/internal/version"
+	"github.com/miffa/helm/internal/tlsutil"
+	"github.com/miffa/helm/internal/urlutil"
+	"github.com/miffa/helm/internal/version"
 )
 
 // HTTPGetter is the default HTTP(/S) backend handler

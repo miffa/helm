@@ -26,9 +26,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/internal/ignore"
-	"github.com/miffa/helm/v3/internal/sympath"
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/internal/ignore"
+	"github.com/miffa/helm/internal/sympath"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 var utf8bom = []byte{0xEF, 0xBB, 0xBF}

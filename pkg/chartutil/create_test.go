@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chart/loader"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chart/loader"
 )
 
 func TestCreate(t *testing.T) {

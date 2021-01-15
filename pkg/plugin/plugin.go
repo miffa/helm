@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package plugin // import "github.com/miffa/helm/v3/pkg/plugin"
+package plugin // import "github.com/miffa/helm/pkg/plugin"
 
 import (
 	"fmt"
@@ -27,7 +27,7 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/pkg/cli"
+	"github.com/miffa/helm/pkg/cli"
 )
 
 const PluginFileName = "plugin.yaml"

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/release"
+	"github.com/miffa/helm/pkg/release"
 )
 
 func TestKindSorter(t *testing.T) {

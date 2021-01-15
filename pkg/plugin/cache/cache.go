@@ -14,7 +14,7 @@ limitations under the License.
 */
 
 // Package cache provides a key generator for vcs urls.
-package cache // import "github.com/miffa/helm/v3/pkg/plugin/cache"
+package cache // import "github.com/miffa/helm/pkg/plugin/cache"
 
 import (
 	"net/url"

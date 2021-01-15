@@ -22,7 +22,7 @@ import (
 	"github.com/mitchellh/copystructure"
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 // CoalesceValues coalesces all of the values in a chart (and its subcharts).

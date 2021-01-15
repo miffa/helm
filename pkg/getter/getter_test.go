@@ -18,7 +18,7 @@ package getter
 import (
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/cli"
+	"github.com/miffa/helm/pkg/cli"
 )
 
 const pluginDir = "testdata/plugins"

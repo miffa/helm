@@ -1,4 +1,4 @@
-module github.com/miffa/helm/v3
+module github.com/miffa/helm
 
 go 1.15
 

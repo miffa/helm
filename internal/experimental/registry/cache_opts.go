@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package registry // import "github.com/miffa/helm/v3/internal/experimental/registry"
+package registry // import "github.com/miffa/helm/internal/experimental/registry"
 
 import (
 	"io"

@@ -21,11 +21,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/miffa/helm/v3/internal/test/ensure"
-	"github.com/miffa/helm/v3/pkg/cli"
-	"github.com/miffa/helm/v3/pkg/getter"
-	"github.com/miffa/helm/v3/pkg/repo"
-	"github.com/miffa/helm/v3/pkg/repo/repotest"
+	"github.com/miffa/helm/internal/test/ensure"
+	"github.com/miffa/helm/pkg/cli"
+	"github.com/miffa/helm/pkg/getter"
+	"github.com/miffa/helm/pkg/repo"
+	"github.com/miffa/helm/pkg/repo/repotest"
 )
 
 const (

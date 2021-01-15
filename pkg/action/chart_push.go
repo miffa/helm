@@ -19,7 +19,7 @@ package action
 import (
 	"io"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
+	"github.com/miffa/helm/internal/experimental/registry"
 )
 
 // ChartPush performs a chart push operation.

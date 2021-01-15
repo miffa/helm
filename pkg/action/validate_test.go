@@ -19,7 +19,7 @@ package action
 import (
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/kube"
+	"github.com/miffa/helm/pkg/kube"
 
 	appsv1 "k8s.io/api/apps/v1"
 

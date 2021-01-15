@@ -32,17 +32,17 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/engine"
-	"github.com/miffa/helm/v3/pkg/kube"
-	"github.com/miffa/helm/v3/pkg/postrender"
-	"github.com/miffa/helm/v3/pkg/release"
-	"github.com/miffa/helm/v3/pkg/releaseutil"
-	"github.com/miffa/helm/v3/pkg/storage"
-	"github.com/miffa/helm/v3/pkg/storage/driver"
-	"github.com/miffa/helm/v3/pkg/time"
+	"github.com/miffa/helm/internal/experimental/registry"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/engine"
+	"github.com/miffa/helm/pkg/kube"
+	"github.com/miffa/helm/pkg/postrender"
+	"github.com/miffa/helm/pkg/release"
+	"github.com/miffa/helm/pkg/releaseutil"
+	"github.com/miffa/helm/pkg/storage"
+	"github.com/miffa/helm/pkg/storage/driver"
+	"github.com/miffa/helm/pkg/time"
 )
 
 // Timestamper is a function capable of producing a timestamp.Timestamper.

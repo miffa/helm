@@ -22,8 +22,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
-	"github.com/miffa/helm/v3/pkg/cli"
+	"github.com/miffa/helm/internal/experimental/registry"
+	"github.com/miffa/helm/pkg/cli"
 )
 
 // options are generic parameters to be provided to the getter during instantiation.

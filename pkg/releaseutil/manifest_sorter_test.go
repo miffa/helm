@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/release"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/release"
 )
 
 func TestSortManifests(t *testing.T) {

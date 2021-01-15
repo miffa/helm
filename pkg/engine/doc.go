@@ -20,4 +20,4 @@ When Helm renders templates it does so with additional functions and different
 modes (e.g., strict, lint mode). This package handles the helm specific
 implementation.
 */
-package engine // import "github.com/miffa/helm/v3/pkg/engine"
+package engine // import "github.com/miffa/helm/pkg/engine"

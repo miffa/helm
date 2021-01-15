@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/pkg/chart"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	kubefake "github.com/miffa/helm/v3/pkg/kube/fake"
-	"github.com/miffa/helm/v3/pkg/release"
-	"github.com/miffa/helm/v3/pkg/time"
+	kubefake "github.com/miffa/helm/pkg/kube/fake"
+	"github.com/miffa/helm/pkg/release"
+	"github.com/miffa/helm/pkg/time"
 )
 
 func upgradeAction(t *testing.T) *Upgrade {

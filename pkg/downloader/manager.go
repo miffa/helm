@@ -34,16 +34,16 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
-	"github.com/miffa/helm/v3/internal/resolver"
-	"github.com/miffa/helm/v3/internal/third_party/dep/fs"
-	"github.com/miffa/helm/v3/internal/urlutil"
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chart/loader"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/getter"
-	"github.com/miffa/helm/v3/pkg/helmpath"
-	"github.com/miffa/helm/v3/pkg/repo"
+	"github.com/miffa/helm/internal/experimental/registry"
+	"github.com/miffa/helm/internal/resolver"
+	"github.com/miffa/helm/internal/third_party/dep/fs"
+	"github.com/miffa/helm/internal/urlutil"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chart/loader"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/getter"
+	"github.com/miffa/helm/pkg/helmpath"
+	"github.com/miffa/helm/pkg/repo"
 )
 
 // ErrRepoNotFound indicates that chart repositories can't be found in local repo cache.

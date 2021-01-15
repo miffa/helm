@@ -17,7 +17,7 @@ limitations under the License.
 package release
 
 import (
-	"github.com/miffa/helm/v3/pkg/time"
+	"github.com/miffa/helm/pkg/time"
 )
 
 // HookEvent specifies the hook event

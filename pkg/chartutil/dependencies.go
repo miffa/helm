@@ -19,7 +19,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 // ProcessDependencies checks through this chart's dependencies, processing accordingly.

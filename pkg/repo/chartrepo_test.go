@@ -30,10 +30,10 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/internal/test/ensure"
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/cli"
-	"github.com/miffa/helm/v3/pkg/getter"
+	"github.com/miffa/helm/internal/test/ensure"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/cli"
+	"github.com/miffa/helm/pkg/getter"
 )
 
 const (

@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package installer // import "github.com/miffa/helm/v3/pkg/plugin/installer"
+package installer // import "github.com/miffa/helm/pkg/plugin/installer"
 
 import (
 	"archive/tar"
@@ -29,11 +29,11 @@ import (
 	securejoin "github.com/cyphar/filepath-securejoin"
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/internal/third_party/dep/fs"
-	"github.com/miffa/helm/v3/pkg/cli"
-	"github.com/miffa/helm/v3/pkg/getter"
-	"github.com/miffa/helm/v3/pkg/helmpath"
-	"github.com/miffa/helm/v3/pkg/plugin/cache"
+	"github.com/miffa/helm/internal/third_party/dep/fs"
+	"github.com/miffa/helm/pkg/cli"
+	"github.com/miffa/helm/pkg/getter"
+	"github.com/miffa/helm/pkg/helmpath"
+	"github.com/miffa/helm/pkg/plugin/cache"
 )
 
 // HTTPInstaller installs plugins from an archive served by a web server.

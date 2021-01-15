@@ -30,9 +30,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/internal/tlsutil"
-	"github.com/miffa/helm/v3/internal/version"
-	"github.com/miffa/helm/v3/pkg/cli"
+	"github.com/miffa/helm/internal/tlsutil"
+	"github.com/miffa/helm/internal/version"
+	"github.com/miffa/helm/pkg/cli"
 )
 
 func TestHTTPGetter(t *testing.T) {

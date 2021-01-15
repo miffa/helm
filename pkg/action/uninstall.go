@@ -22,10 +22,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/release"
-	"github.com/miffa/helm/v3/pkg/releaseutil"
-	helmtime "github.com/miffa/helm/v3/pkg/time"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/release"
+	"github.com/miffa/helm/pkg/releaseutil"
+	helmtime "github.com/miffa/helm/pkg/time"
 )
 
 // Uninstall is the action for uninstalling releases.

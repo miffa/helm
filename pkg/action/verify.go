@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/miffa/helm/v3/pkg/downloader"
+	"github.com/miffa/helm/pkg/downloader"
 )
 
 // Verify is the action for building a given chart's Verify tree.

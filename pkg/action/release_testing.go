@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/release"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/release"
 )
 
 // ReleaseTesting is the action for testing a release.

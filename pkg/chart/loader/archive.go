@@ -30,7 +30,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 var drivePathPattern = regexp.MustCompile(`^[a-zA-Z]:/`)

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 func TestReadValues(t *testing.T) {

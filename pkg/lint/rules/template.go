@@ -30,10 +30,10 @@ import (
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/util/yaml"
 
-	"github.com/miffa/helm/v3/pkg/chart/loader"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/engine"
-	"github.com/miffa/helm/v3/pkg/lint/support"
+	"github.com/miffa/helm/pkg/chart/loader"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/engine"
+	"github.com/miffa/helm/pkg/lint/support"
 )
 
 var (

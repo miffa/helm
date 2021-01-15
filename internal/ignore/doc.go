@@ -64,4 +64,4 @@ Notable differences from .gitignore:
 	- The evaluation of escape sequences has not been tested for compatibility
 	- There is no support for '\!' as a special leading sequence.
 */
-package ignore // import "github.com/miffa/helm/v3/internal/ignore"
+package ignore // import "github.com/miffa/helm/internal/ignore"

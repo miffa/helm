@@ -19,7 +19,7 @@ package releaseutil
 import (
 	"sort"
 
-	"github.com/miffa/helm/v3/pkg/release"
+	"github.com/miffa/helm/pkg/release"
 )
 
 // KindSortOrder is an ordering of Kinds.

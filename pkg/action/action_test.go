@@ -27,14 +27,14 @@ import (
 	dockerauth "github.com/deislabs/oras/pkg/auth/docker"
 	fakeclientset "k8s.io/client-go/kubernetes/fake"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	kubefake "github.com/miffa/helm/v3/pkg/kube/fake"
-	"github.com/miffa/helm/v3/pkg/release"
-	"github.com/miffa/helm/v3/pkg/storage"
-	"github.com/miffa/helm/v3/pkg/storage/driver"
-	"github.com/miffa/helm/v3/pkg/time"
+	"github.com/miffa/helm/internal/experimental/registry"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
+	kubefake "github.com/miffa/helm/pkg/kube/fake"
+	"github.com/miffa/helm/pkg/release"
+	"github.com/miffa/helm/pkg/storage"
+	"github.com/miffa/helm/pkg/storage/driver"
+	"github.com/miffa/helm/pkg/time"
 )
 
 var verbose = flag.Bool("test.log", false, "enable test logging")

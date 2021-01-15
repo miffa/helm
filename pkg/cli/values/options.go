@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"github.com/miffa/helm/v3/pkg/getter"
-	"github.com/miffa/helm/v3/pkg/strvals"
+	"github.com/miffa/helm/pkg/getter"
+	"github.com/miffa/helm/pkg/strvals"
 )
 
 type Options struct {

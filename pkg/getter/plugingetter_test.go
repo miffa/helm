@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/cli"
+	"github.com/miffa/helm/pkg/cli"
 )
 
 func TestCollectPlugins(t *testing.T) {

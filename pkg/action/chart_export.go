@@ -21,8 +21,8 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/miffa/helm/v3/internal/experimental/registry"
-	"github.com/miffa/helm/v3/pkg/chartutil"
+	"github.com/miffa/helm/internal/experimental/registry"
+	"github.com/miffa/helm/pkg/chartutil"
 )
 
 // ChartExport performs a chart export operation.

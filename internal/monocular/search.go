@@ -24,8 +24,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/miffa/helm/v3/internal/version"
-	"github.com/miffa/helm/v3/pkg/chart"
+	"github.com/miffa/helm/internal/version"
+	"github.com/miffa/helm/pkg/chart"
 )
 
 // SearchPath is the url path to the search API in monocular.

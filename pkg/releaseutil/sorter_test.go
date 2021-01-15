@@ -14,14 +14,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package releaseutil // import "github.com/miffa/helm/v3/pkg/releaseutil"
+package releaseutil // import "github.com/miffa/helm/pkg/releaseutil"
 
 import (
 	"testing"
 	"time"
 
-	rspb "github.com/miffa/helm/v3/pkg/release"
-	helmtime "github.com/miffa/helm/v3/pkg/time"
+	rspb "github.com/miffa/helm/pkg/release"
+	helmtime "github.com/miffa/helm/pkg/time"
 )
 
 // note: this test data is shared with filter_test.go.

@@ -24,9 +24,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/lint/support"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/lint/support"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/miffa/helm/v3/pkg/chart"
-	"github.com/miffa/helm/v3/pkg/chartutil"
-	"github.com/miffa/helm/v3/pkg/getter"
-	"github.com/miffa/helm/v3/pkg/repo/repotest"
+	"github.com/miffa/helm/pkg/chart"
+	"github.com/miffa/helm/pkg/chartutil"
+	"github.com/miffa/helm/pkg/getter"
+	"github.com/miffa/helm/pkg/repo/repotest"
 )
 
 func TestVersionEquals(t *testing.T) {

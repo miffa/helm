@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package driver // import "github.com/miffa/helm/v3/pkg/storage/driver"
+package driver // import "github.com/miffa/helm/pkg/storage/driver"
 
 import (
 	"testing"
