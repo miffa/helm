@@ -26,8 +26,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/ignore"
-	"helm.sh/helm/v3/internal/sympath"
+	"github.com/miffa/helm/v3/internal/ignore"
+	"github.com/miffa/helm/v3/internal/sympath"
 	"github.com/miffa/helm/v3/pkg/chart"
 )
 

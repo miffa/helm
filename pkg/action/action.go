@@ -32,7 +32,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"helm.sh/helm/v3/internal/experimental/registry"
+	"github.com/miffa/helm/v3/internal/experimental/registry"
 	"github.com/miffa/helm/v3/pkg/chart"
 	"github.com/miffa/helm/v3/pkg/chartutil"
 	"github.com/miffa/helm/v3/pkg/engine"

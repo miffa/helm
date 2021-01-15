@@ -24,7 +24,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/internal/test/ensure"
+	"github.com/miffa/helm/v3/internal/test/ensure"
 	"github.com/miffa/helm/v3/pkg/repo"
 )
 

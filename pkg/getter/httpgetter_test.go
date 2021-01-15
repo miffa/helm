@@ -30,8 +30,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/tlsutil"
-	"helm.sh/helm/v3/internal/version"
+	"github.com/miffa/helm/v3/internal/tlsutil"
+	"github.com/miffa/helm/v3/internal/version"
 	"github.com/miffa/helm/v3/pkg/cli"
 )
 

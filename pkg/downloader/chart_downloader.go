@@ -25,9 +25,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/experimental/registry"
-	"helm.sh/helm/v3/internal/fileutil"
-	"helm.sh/helm/v3/internal/urlutil"
+	"github.com/miffa/helm/v3/internal/experimental/registry"
+	"github.com/miffa/helm/v3/internal/fileutil"
+	"github.com/miffa/helm/v3/internal/urlutil"
 	"github.com/miffa/helm/v3/pkg/getter"
 	"github.com/miffa/helm/v3/pkg/helmpath"
 	"github.com/miffa/helm/v3/pkg/provenance"

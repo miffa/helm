@@ -21,7 +21,7 @@ import (
 	"io"
 	"path/filepath"
 
-	"helm.sh/helm/v3/internal/experimental/registry"
+	"github.com/miffa/helm/v3/internal/experimental/registry"
 	"github.com/miffa/helm/v3/pkg/chartutil"
 )
 

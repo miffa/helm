@@ -24,7 +24,7 @@ import (
 	"path"
 	"time"
 
-	"helm.sh/helm/v3/internal/version"
+	"github.com/miffa/helm/v3/internal/version"
 	"github.com/miffa/helm/v3/pkg/chart"
 )
 

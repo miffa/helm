@@ -23,7 +23,7 @@ import (
 
 	"github.com/Masterminds/vcs"
 
-	"helm.sh/helm/v3/internal/test/ensure"
+	"github.com/miffa/helm/v3/internal/test/ensure"
 	"github.com/miffa/helm/v3/pkg/helmpath"
 )
 

@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"helm.sh/helm/v3/internal/test"
+	"github.com/miffa/helm/v3/internal/test"
 	"github.com/miffa/helm/v3/pkg/chart"
 	"github.com/miffa/helm/v3/pkg/chartutil"
 )

@@ -23,7 +23,7 @@ import (
 	"github.com/Masterminds/vcs"
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/third_party/dep/fs"
+	"github.com/miffa/helm/v3/internal/third_party/dep/fs"
 	"github.com/miffa/helm/v3/pkg/helmpath"
 	"github.com/miffa/helm/v3/pkg/plugin/cache"
 )

@@ -35,8 +35,8 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	"sigs.k8s.io/yaml"
 
-	ociRegistry "helm.sh/helm/v3/internal/experimental/registry"
-	"helm.sh/helm/v3/internal/tlsutil"
+	ociRegistry "github.com/miffa/helm/v3/internal/experimental/registry"
+	"github.com/miffa/helm/v3/internal/tlsutil"
 	"github.com/miffa/helm/v3/pkg/chart"
 	"github.com/miffa/helm/v3/pkg/chart/loader"
 	"github.com/miffa/helm/v3/pkg/chartutil"

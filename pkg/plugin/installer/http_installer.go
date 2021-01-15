@@ -29,7 +29,7 @@ import (
 	securejoin "github.com/cyphar/filepath-securejoin"
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/third_party/dep/fs"
+	"github.com/miffa/helm/v3/internal/third_party/dep/fs"
 	"github.com/miffa/helm/v3/pkg/cli"
 	"github.com/miffa/helm/v3/pkg/getter"
 	"github.com/miffa/helm/v3/pkg/helmpath"

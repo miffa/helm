@@ -27,7 +27,7 @@ import (
 	dockerauth "github.com/deislabs/oras/pkg/auth/docker"
 	fakeclientset "k8s.io/client-go/kubernetes/fake"
 
-	"helm.sh/helm/v3/internal/experimental/registry"
+	"github.com/miffa/helm/v3/internal/experimental/registry"
 	"github.com/miffa/helm/v3/pkg/chart"
 	"github.com/miffa/helm/v3/pkg/chartutil"
 	kubefake "github.com/miffa/helm/v3/pkg/kube/fake"

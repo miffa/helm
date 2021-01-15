@@ -32,7 +32,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"helm.sh/helm/v3/internal/test/ensure"
+	"github.com/miffa/helm/v3/internal/test/ensure"
 	"github.com/miffa/helm/v3/pkg/getter"
 	"github.com/miffa/helm/v3/pkg/helmpath"
 )

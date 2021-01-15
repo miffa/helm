@@ -30,8 +30,8 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/internal/fileutil"
-	"helm.sh/helm/v3/internal/urlutil"
+	"github.com/miffa/helm/v3/internal/fileutil"
+	"github.com/miffa/helm/v3/internal/urlutil"
 	"github.com/miffa/helm/v3/pkg/chart"
 	"github.com/miffa/helm/v3/pkg/chart/loader"
 	"github.com/miffa/helm/v3/pkg/provenance"

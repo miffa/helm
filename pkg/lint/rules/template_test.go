@@ -24,7 +24,7 @@ import (
 
 	"github.com/Masterminds/goutils"
 
-	"helm.sh/helm/v3/internal/test/ensure"
+	"github.com/miffa/helm/v3/internal/test/ensure"
 	"github.com/miffa/helm/v3/pkg/chart"
 	"github.com/miffa/helm/v3/pkg/chartutil"
 	"github.com/miffa/helm/v3/pkg/lint/support"

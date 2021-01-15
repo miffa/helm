@@ -30,7 +30,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"helm.sh/helm/v3/internal/test/ensure"
+	"github.com/miffa/helm/v3/internal/test/ensure"
 	"github.com/miffa/helm/v3/pkg/chart"
 	"github.com/miffa/helm/v3/pkg/cli"
 	"github.com/miffa/helm/v3/pkg/getter"
